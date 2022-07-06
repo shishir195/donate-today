@@ -1,6 +1,7 @@
 #header {
     text-align: center;
     background-image: url(images/donation13.jpg);
+    background-size: 100%;
     color: white;
     padding-left: 50px;
     padding-right: 50px;
@@ -31,9 +32,11 @@ h2 {
 
 a {
     text-decoration: none;
-    background-color: rgb(228, 120, 238);
+    background-color: rgb(229, 143, 143);
     padding: 10px;
-    margin-left: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+
 }
 
 #donate-plan {
@@ -74,11 +77,6 @@ body {
     margin: 0%;
 }
 
-
-
-
-
-
 .half-width {
     width: 50%;
     padding: 5%;
@@ -96,7 +94,72 @@ body {
 
 }
 
+#my-update {
+    text-align: center;
+}
 
+.email-submit {
+    background-color: bisque;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+button {
+    font-size: large;
+    color: white;
+    background-color: rgba(119, 6, 6, 0.688);
+}
+
+#our-goal {
+    display: flex;
+    text-align: center;
+}
+
+.goal-text {
+    background-color: honeydew;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+#goal {
+    text-align: center;
+
+}
+
+
+.goal-image {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.donation10 {
+    width: 80%;
+}
+
+#address {
+    display: flex;
+    background-color: darkblue
+}
+
+.address1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: aliceblue;
+}
 
 #footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -107,5 +170,5 @@ body {
 }
 
 .footer-h1 {
-    color: red;
+    color: red
 }
